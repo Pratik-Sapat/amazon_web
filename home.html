@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/webicon.png" class="favicon">
+    <title>Online Shoping Site in India</title>
+</head>
+
+<body style="background-color:rgb(245, 245, 245)">
+
+    <div class="media1">
+        <!-- ----------------------------------------------Navbar first ------------------------------------------------------------------------->
+        <nav class="navbar navbar-expand-sm fixed-top" id="navbar1">
+            <ul class="navbar-nav " style="width: 100%; height: 45px;">
+
+                <li class="nav-item " id="hoverbox">
+                    <img src="./images/amazonlogo.png" alt="img" width="120px" height="50px" class="btn" id="mobimg">
+                </li>
+                <!------------------------------------------ Amazon Logo ---------------------------------------------------------->
+                <!--------------------------------------------- Location logo -------------------------------------------------------->
+                <li class="nav-item btn px-2" id="helloselectadd">
+                    <p style="margin-left: -76px; color: white; margin-bottom: -5px; font-size: 11px;" class="hell">Hello</p>
+                    <i class="bi bi-geo-alt " style="margin-top: -20px;" id="loc"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-geo-alt locicon"
+                        viewBox="0 0 16 16" style="padding-bottom: 2px; margin-left: -130px;">
+                        <path
+                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    
+                    <span  style="font-weight: bolder; font-family: inherit; font-size: 15px; color: white;"id="selectyouraddress">
+                       <p  style="margin-top: -20px;margin-left: 25px;" id="addres">Select your
+                        address</p>     
+                    </span>
+                    
+                    
+                </li>
+                <!--............................................................All Dropdown button............................................ -->
+                <li class="dropdown nav-item " style="margin-top: 3px;" >
+                    <div class="input-group "  id="searchbar">
+                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                            style="margin-left: 25px; background-color: rgb(211, 210, 210);" id="all">All</button>
+                        <!---------------------------------------- input  search---------------------------------- -->
+                        <input type="search" class="form-control " style="width: 680px;" id="searchm">
+                        <!-- ---------------------------search symbol--------------------------------------------- -->
+                        <button type="button" class="btn btn-outline-warning btn-warning rounded-end" id="searchicon">
+                            <i class="bi bi-search"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </button>
+
+                        <!-- -----------------------------------------------dropdown menu--------------------------------------- -->
+                        <ul class="dropdown-menu myDropDown">
+                            <li><a href="#" class="dropdown-item text-dark">All Categories</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Deals</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Alexa Skills</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Amazon Devices</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Amazon Fashion</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Amazon Pantry</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Appliances</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Apps & Games</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Baby</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Beauty</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Books</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Car & Motorbikr</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Clothing & Accessories</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Collectibles</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Computers & Accessories</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Electronics</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Furniture</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Garden & outdoors</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Gift Cards</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Grocery & Food</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Gift Cards</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Grocery & Gourmet Foods</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Health & Personal Care</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Home & Kitchen</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Industrial & Scientific</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Jewellery</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Kindle Store</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Luggage & Bags</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">luxury Beauty</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Music</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Movies</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Software</a></li>
+                            <li><a href="#" class="dropdown-item text-dark">Prime Video</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <!-------------------------------------------All--------------------- Search Bar- End----------------------------------------------------- -->
+                <!-----------------------------------------language & Flag----------------------------------------------------------------------- -->
+                <li class="nav-item dropdown" style="margin-top: 7px;" id="flag1">
+
+                    <button type="button" class="btn dropdown-toggle text-light mx-1 px-3"
+                        data-bs-toggle="dropdown" id="flag"><img src="./images/india.png" alt="img"
+                            style="width: 19px;height: 16px;"></button>
+
+                    <ul class="dropdown-menu" style="width: 250px;">
+                        <li><a href="#" class="dropdown-item text-dark"> English</a> </li>
+                        <hr>
+                        <li><a href="#" class="dropdown-item text-dark"> हिंदी - HI</a> </li>
+                        <li><a href="#" class="dropdown-item text-dark"> தமிழ் - TA</a> </li>
+                        <li><a href="#" class="dropdown-item text-dark"> తెలుగు - TE</a> </li>
+                        <li><a href="#" class="dropdown-item text-dark"> ಕನ್ನಡ - KN</a> </li>
+                        <li><a href="#" class="dropdown-item text-dark"> മലയാളം - ML</a> </li>
+                        <li><a href="#" class="dropdown-item text-dark"> मराठी - MR</a> </li>
+                        <li><a href="#" class="dropdown-item text-dark">বাংলা - BN</a> </li>
+                        <hr>
+                        <li class="dropdown-item"><img src="./images/india.png" alt="img" width="18px" height="18px">
+                            <span style="font-size: 15px;"> You are shopping on
+                                <pre style="font-size: 15px;">Amazon.in.</pre>
+                            </span>
+                        </li>
+                        <li class="dropdown-item text-primary text-center" style="font-size: 14px;">Change Country &
+                            Region</li>
+
+                    </ul>
+                </li>
+
+
+
+                <!-- ----------------------------------------------Account And List----------------------------------------------------------- -->
+                <li class="nav-item dropdown mx-1 helloin" id="accountlist">
+                    <a href="./index.html" style="border: none;">
+                        <button class="btn text-light"style="font-size: 12px; text-align: left;margin-left: -14px; margin-top: -3px;font-family: inherit" id="hellosign"><span id="signin" style="border: none;">Hello,Sign in</span>                   
+                            <pre style="border: none;font-size: 15px; font-weight: bolder; margin-bottom: -3px; font-family: inherit"
+                            class=" dropdown-toggle" data-bs-toggle="dropdown" id="hellosignin"><span id="hellosignin1" style="border: none;">Account & List</span></pre>  
+                        </button>
+                    </a>
+                </li>
+
+                <!-- ----------------------------------------Returns And Order------------------------------------------------------------ -->
+                <li class="nav-item  mx-3 return_order" id="accountlist">
+                    <button class="btn text-light"style="font-size: 12px; text-align: left;margin-left: -14px; margin-top: -3px;font-family: inherit"><span class=" r_and_o" style="border: none;">Returns</span>
+                        <pre style="border: none;font-size: 15px; font-weight: bolder; margin-bottom: -3px; font-family: inherit"
+                            class="r_and"><span class="ordersize" style="border: none;">& Orders</span></pre>
+                    </button>
+                </li>
+                <!-- ----------------------------------------------shopping cart----------------------------------------------------------------- -->
+                <li class="nav-item carticon" id="accountlist">
+                    <button class="btn text-light"
+                        style="font-size: 12px; text-align: left;margin-left: -14px; margin-top: -3px;font-family: inherit">
+                        <i class="bi bi-cart2"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-cart2"
+                            viewBox="0 0 16 16" style="border: none;">
+                            <path
+                                d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                        </svg>
+                        <span
+                            style="border: none;font-size: 15px; font-weight: bolder; font-family: inherit;color: white;margin-left:-3px; ">Cart</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <!-- ------------------------------------------------Navbar1 End------------------------------------------------------------------------ -->
+
+        <!-- ---------------------------------------------------navbar second--------------------------------------------------------------- -->
+        <div class="div2">
+            <nav class="navbar navbar-expand-sm" style="background-color:#232F3E ; height:44px;margin-top: 60px;">
+
+                <ul class="navbar-nav">
+
+                    <!-- --------------------------------------All Option----------------------------------------------------------------- -->
+
+                    <li class="nav-item" id="navbar2">
+                        <div class="offcanvas offcanvas-start d-flex " id="side"
+                            style="margin-top: -20px; width: 23.4%;">
+                            <!-- -------------------------All option inside list--------------------------------------------------------- -->
+                            <div class="offcanvas-header"
+                                style="background-color:#232F3E; height: 72px; padding-top: 30px;">
+
+                                <h5 class="offcanvas-title"
+                                    style="color: white;padding-top: 1px; margin-left: 50px; font-family: inherit;font-weight: bolder;">
+                                    Hello, Sign in!</h5>
+
+                                <button type="button" class=" btn btn-close btn-close-white text-reset  py-3 "
+                                    data-bs-dismiss="offcanvas"></button>
+
+
+                            </div>
+
+                            <div class="offcanvas-body">
+                                <h5 class="dropdown-item"
+                                    style=" font-family: inherit; font-weight: bold; margin-bottom:20px;">Trending</h5>
+                                <p class="dropdown-item">Best Sellers</p>
+                                <p class="dropdown-item">New Releases</p>
+                                <p class="dropdown-item">Movers and Shakers</p>
+
+                                <hr>
+
+                                <h5 class="dropdown-item"
+                                    style=" font-family: inherit; font-weight: bold; margin-bottom: 20px;">Digital
+                                    Content And Devices</h5>
+                                <p class="dropdown-item">Echo & Alexa</p>
+                                <p class="dropdown-item">Fire TV</p>
+                                <p class="dropdown-item">Kindle E-Readers & E-Books</p>
+                                <p class="dropdown-item">Audible AudioBooks</p>
+                                <p class="dropdown-item">Amazon Prime Video</p>
+                                <p class="dropdown-item">Amazon Prime Music</p>
+
+                                <hr>
+
+                                <h5 class="dropdown-item"
+                                    style=" font-family: inherit; font-weight: bold; margin-bottom: 20px;">Shop By
+                                    Department</h5>
+                                <p class="dropdown-item">Mobiles, Computers</p>
+                                <p class="dropdown-item">TV, Appliances, Electronics</p>
+                                <p class="dropdown-item">Men's Fashion</p>
+                                <p class="dropdown-item">Women's Fashion</p>
+                                <p class="dropdown-item">See All</p>
+
+                                <hr>
+
+                                <h5 class="dropdown-item"
+                                    style=" font-family: inherit; font-weight: bold; margin-bottom: 20px;">Programs &
+                                    Features</h5>
+                                <p class="dropdown-item">Gift Cards & Mobile Recharges</p>
+                                <p class="dropdown-item">Flight Tickets</p>
+                                <p class="dropdown-item">#FoundationOnAmazon</p>
+                                <p class="dropdown-item">Amazon Outlet</p>
+
+                                <hr>
+
+                                <h5 class="dropdown-item"
+                                    style=" font-family: inherit; font-weight: bold; margin-bottom: 20px;">Help &
+                                    Settings</h5>
+                                <p class="dropdown-item">Your Account</p>
+                                <p class="dropdown-item">Customer Service</p>
+                                <p class="dropdown-item">Sign in</p>
+
+                            </div>
+
+
+                        </div>
+                        <!-- -------------------------------------------All option button---------------------------------------------- -->
+                        <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#side"
+                            style="color: white;font-family: inherit;font-weight: bolder; height:35px;" id="allsize">
+                            <i class="bi bi-list"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor"
+                                class="bi bi-list" viewBox="0 0 16 16"
+                                style="margin-bottom: 3px;font-weight:bolder;border:none">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                            </svg>All
+                        </button>
+                    </li>
+                    <!-- --------------------------------------------------------All option End----------------------------------------------- -->
+                    <!---------------------------------------- Mobiles ------------------------------------------------------------------>
+                    <li class="nav-item mobiles" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light mobilesize"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;"><span class="msize" style="border:none;">Mobiles</span></a>
+
+                    </li>
+
+
+                    <!---------------------------------------- Best Sellers ------------------------------------------------------------------>
+                    <li class="nav-item bestseller" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;"><span class="bests"style="border:none;">Best
+                                Sellers</span></a>
+
+                    </li>
+
+                    <!---------------------------------------- Electronics ------------------------------------------------------------------>
+                    <li class="nav-item electronics" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;"><span class="electron" style="border:none;">Electronics</span></a>
+
+                    </li>
+
+                    <!---------------------------------------- Customer Services ---------------------------------------------------------------->
+                    <li class="nav-item customer_service" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;"><span class="customers" style="border:none;">Customer
+                                Service</span></a>
+
+                    </li>
+
+                    <!---------------------------------------- Fashion ------------------------------------------------------------------>
+                    <li class="nav-item fashion" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;"><span class="fashions" style="border:none;">Fashion</span></a>
+
+                    </li>
+
+                    <!---------------------------------------- prime ------------------------------------------------------------------>
+                    <li class="nav-item prime" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;"><span class="primes" style="border:none;">Prime</span></a>
+
+                    </li>
+
+                    <!---------------------------------------- Home & Kitchen ------------------------------------------------------------------>
+                    <li class="nav-item home_kitchen" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;">
+                            <span class="home_kitchens" style="border:none;">Home & Kitchen</span>
+                            </a>
+
+                    </li>
+
+                    <!---------------------------------------- Amazon Pay ------------------------------------------------------------------>
+                    <li class="nav-item amazonpay" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;"><span class="amazonpays" style="border:none;">Amazon
+                                Pay</span></a>
+
+                    </li>
+
+                    <!---------------------------------------- Computers ------------------------------------------------------------------>
+                    <li class="nav-item computer" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;"><span class="computers" style="border:none;">Computers</span></a>
+
+                    </li>
+
+                    <!---------------------------------------- Today's Deals ------------------------------------------------------------------>
+                    <li class="nav-item todaysdeal" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;"><span class="todaysdeals" style="border:none;">Today's
+                                Deals</span></a>
+
+                    </li>
+
+                    <!---------------------------------------- Books ------------------------------------------------------------------>
+                    <li class="nav-item book" id="nav2">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 15px;font-weight:500;height: 35px;margin-bottom: 5px;"><span class="books" style="border:none;">Books</span></a>
+
+                    </li>
+                    <!---------------------------------------- download the app------------------------------- -->
+                    <li class="nav-item downloadapp" id="nav2" style="margin-left: 63px;">
+
+                        <a href="#" class="nav-link btn text-light"
+                            style="font-family:inherit; font-size: 17px;font-weight:400;height: 38px;margin-bottom: 5px;"><img
+                                src="./images/amazonpacklogo.png" class="downloadimg" alt="img" width="35px" height="35px"
+                                style="border: none; padding-bottom: 1px; margin-top: -4px;"><span class="downloada" style="border:none;">Shopping Made Easy |
+                                    Download The App</span> </a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+        <!-- ----------------------------------------------------Nav2 End-------------------------------------------------------------------- -->
+        <!-- -----------------------------------------------------Floating Banner----------------------------------------------------------- -->
+        <div class="container-fluid mobcard">
+            <div class="carousel slide" data-bs-side="carousel" id="show">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" id="bannerimg">
+                        <img src="./images/banner1.jpg" alt="img" class="w-100 d-block" style="height:600px" id="bannerimg">
+                    </div>
+
+                    <div class="carousel-item " id="bannerimg">
+                        <img src="./images/banner3.jpg" alt="img" class="w-100 d-block" id="bannerimg">
+                    </div>
+                    <div class="carousel-item " id="bannerimg">
+                        <img src="./images/banner2.jpg" alt="img" class="w-100 d-block"id="bannerimg">
+                    </div>
+                    <div class="carousel-item " id="bannerimg">
+                        <img src="./images/banner4.jpg" alt="img" class="w-100 d-block"id="bannerimg">
+                    </div>
+                    <div class="carousel-item " id="bannerimg">
+                        <img src="./images/banner5.jpg" alt="img" class="w-100 d-block"id="bannerimg">
+                    </div>
+                    <div class="carousel-item " id="bannerimg">
+                        <img src="./images/banner6.jpg" alt="img" class="w-100 d-block"id="bannerimg">
+                    </div>
+                    <div class="carousel-item " id="bannerimg">
+                        <img src="./images/banner7.jpg" alt="img" class="w-100 d-block"id="bannerimg">
+                    </div>
+                    <div class="carousel-item " id="bannerimg">
+                        <img src="./images/banner8.jpg" alt="img" class="w-100 d-block"id="bannerimg">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#show" data-bs-slide="prev"  id="previcon">
+                    <span class="carousel-control-prev-icon" style="margin-top: -300px;"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#show" data-bs-slide="next" id="starticon">
+                    <span class="carousel-control-next-icon" style="margin-top: -300px;"></span>
+                </button>
+
+            </div>
+
+            <!-- ------------------------------------------Floating Banner End--------------------------------------------------------------- -->
+
+            <!-- ------------------------------------------cards Row1------------------------------------------------------------------------ -->
+
+            <ul class="list-group list-group-horizontal" style="margin-left: -8px;" id="cardrow1">
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;" id="row1_card">
+                    <!-- -----------------------------------R1--card1--------------------------------------------------------------------- -->
+                    <div class="card" style="margin-top: -300px; width: 21.6rem; height: 410px;">
+                        <div class="card-body ">
+                            <table > 
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Revamp your home in style</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow1/Ryhs1.jpg" alt="img" width="140px"
+                                                height="110px">
+                                            Bedsheets,curtains & More
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow1/ryhs2.jpg" alt="img" width="140px"
+                                                height="110px" class="mx-4 ">
+                                            <p style="margin-left: 25px;">Home Decoraton</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow1/ryhs3.jpg" alt="img" width="140px"
+                                                height="110px" class="" style="margin-top:10px;">
+                                            <p>Home Storage</p>
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow1/ryhs4.jpg" alt="img" width="140px"
+                                                height="110px" class=" mx-4" style="margin-top: 10px;">
+                                            <p style="margin-left: 25px;">Lightning Solutions</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 35rem;font-size:14px ;">
+                            Explore all</a>
+                    </div>
+                </li>
+                <!-- ------------------------------------------------------R1 Card1 End--------------------------------------------------- -->
+                <!-- -------------------------------------------------------R1---card2----------------------------------------------------- -->
+
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;"id="row1_card2">
+
+                    <div class="card" style="margin-top: -300px; width: 21.6rem; height: 410px;" >
+                        <div class="card-body">
+                            <table>
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Top rated, premium quality | Amazon Brands & more</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow1/2card1.jpg" alt="img" width="140px"
+                                                height="100px">
+                                            Home Product
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow1/2card2.jpg" alt="img" width="140px"
+                                                height="100px" class="mx-4 ">
+                                            <p style="margin-left: 25px;">Furniture</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow1/2card3.jpg" alt="img" width="140px"
+                                                height="100px" class="" style="margin-top:10px;">
+                                            <p>Daily Essential</p>
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow1/2card4.jpg" alt="img" width="140px"
+                                                height="100px" class=" mx-4" style="margin-top: 10px;">
+                                            <p style="margin-left: 25px;">Clothing Essentials</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 35rem;font-size:14px ;">
+                            See More</a>
+                    </div>
+                </li>
+
+                <!-- ----------------------------------------------------R1 Card2 End------------------------------------------------------ -->
+                <!-- ----------------------------------------------------R1 Card3 Start---------------------------------------------------- -->
+
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;" id="row1_card3">
+
+                    <div class="card" style="margin-top: -300px; width: 21.6rem; height: 410px;">
+                        <div class="card-body">
+                            <table>
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Styles for Men | Up to 70% off</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow1/3card1.jpg" alt="img" width="140px"
+                                                height="110px">
+                                            Clothinng
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow1/3card2.jpg" alt="img" width="140px"
+                                                height="110px" class="mx-4 ">
+                                            <p style="margin-left: 25px;">Footware</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow1/3card3.jpg" alt="img" width="140px"
+                                                height="110px" class="" style="margin-top:10px;">
+                                            <p>Wathches</p>
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow1/3card4.jpg" alt="img" width="140px"
+                                                height="110px" class=" mx-4" style="margin-top: 10px;">
+                                            <p style="margin-left: 25px;">Bags & Luggage</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 35rem;font-size:14px ;">
+                            Explore all</a>
+                    </div>
+
+                </li>
+
+                <!-- -----------------------------------------------------------------Card3 End---------------------------------------------- -->
+                <!-- --------------------------------------------------------------Card4 Start----------------------------------------------- -->
+
+
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;" id="row1_card4">
+
+                            <table style="margin-top: -300px ;">
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow1/4card1.png" alt="img" width="330px"
+                                                height="160px">    
+                                        </td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow1/4card2.jpg" alt="img" width="300px"
+                                                height="212px" class="" style="margin-top:30px;margin-left: 14px;">  
+                                        </td>
+                                       
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 280px; margin-bottom: 35rem;font-size:12px ;color: grey;">
+                            Sponsered</a>
+
+                </li>
+
+                <!-- ------------------------------R1---------------Card 4 End -------------------------------------------------------- -->
+            </ul>
+            <!-- -------------------------------------------------------Row 1(R1) Ended Here------------------------------------------- -->
+
+
+
+            <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+            <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+
+
+             <!-- ------------------------------------------cards Row2------------------------------------------------------------------------ -->
+
+            <ul class="list-group list-group-horizontal" style="margin-left: -8px;" id="row2">
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;">
+                    <!-- -----------------------------------R2--card1--------------------------------------------------------------------- -->
+                    <div class="card" style="margin-top: -15px; width: 21.6rem; height: 410px;">
+                        <div class="card-body">
+                            <table>
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Automotive essentials | Up to 60% off</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow2/1card1.jpg" alt="img" width="140px"
+                                                height="100px">
+                                            Cleaning Accessories
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow2/1card2.jpg" alt="img" width="140px"
+                                                height="100px" class="mx-4 ">
+                                            <p style="margin-left: 25px;">Tyre & rim Care</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow2/1card3.jpg" alt="img" width="140px"
+                                                height="100px" class="" style="margin-top:10px;">
+                                            <p>Helmets</p>
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow2/1card4.jpg" alt="img" width="140px"
+                                                height="100px" class=" mx-4" style="margin-top: 10px;">
+                                            <p style="margin-left: 25px;">Vacuume cleaner</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 45px;font-size:14px ;">
+                            see more</a>
+                    </div>
+                </li>
+                <!-- ------------------------------------------------------R2 Card1 End--------------------------------------------------- -->
+                <!-- -------------------------------------------------------R2---card2----------------------------------------------------- -->
+
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;">
+
+                    <div class="card" style="margin-top: -15px; width: 21.6rem; height: 410px;">
+                        <div class="card-body">
+                            <table>
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Pay your credit card bills on Amazon</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow2/2caard1.jpg" alt="img" width="300px"
+                                                height="285px">
+                                            
+                                        </td>
+                                       
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 35rem;font-size:14px ;">
+                            Pay Now</a>
+                    </div>
+                </li>
+
+                <!-- ----------------------------------------------------R2 Card2 End------------------------------------------------------ -->
+                <!-- ----------------------------------------------------R2 Card3 Start---------------------------------------------------- -->
+
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;">
+
+                    <div class="card" style="margin-top: -15px; width: 21.6rem; height: 410px;">
+                        <div class="card-body">
+                            <table>
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Styles for Women | Up to 70% off</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow2/3card1.jpg" alt="img" width="140px"
+                                                height="110px">
+                                            Women's Clothinng
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow2/3card2.jpg" alt="img" width="140px"
+                                                height="110px" class="mx-4 ">
+                                            <p style="margin-left: 25px;">Footware+Handbags</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow2/3card3.jpg" alt="img" width="140px"
+                                                height="110px" class="" style="margin-top:10px;">
+                                            <p>Wathches</p>
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow2/3card4.jpg" alt="img" width="140px"
+                                                height="110px" class=" mx-4" style="margin-top: 10px;">
+                                            <p style="margin-left: 25px;">Fashion Jewellery</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 15rem;font-size:13px ;">
+                            End of Season Sell</a>
+                    </div>
+
+                </li>
+
+                <!-- -------------------------------------------------------R2----------Card3 End---------------------------------------------- -->
+                <!-- ------------------------------------------------R2--------------Card4 Start----------------------------------------------- -->
+
+
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;">
+
+                    <div class="card" style="margin-top: -15px; width: 21.6rem; height: 410px;">
+                        <div class="card-body">
+                            <table>
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Upgrade your home | Amazon Brands & more</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow2/4card1.jpg" alt="img" width="140px"
+                                                height="98px">
+                                            Smart LED TV's
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow2/4card2.jpg" alt="img" width="140px"
+                                                height="98px" class="mx-4 ">
+                                            <p style="margin-left: 25px;">Appliances</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow2/4card3.jpg" alt="img" width="140px"
+                                                height="98px" class="" style="margin-top:10px;">
+                                            <p>Furniture</p>
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow2/4card4.jpg" alt="img" width="140px"
+                                                height="98px" class=" mx-4" style="margin-top: 10px;">
+                                            <p style="margin-left: 25px;">Kitchen Product</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 35rem;font-size:14px ;">
+                            Explore all</a>
+                    </div>
+
+                </li>
+
+
+                <!-- ------------------------------R2---------------Card 4 End -------------------------------------------------------- -->
+            </ul>
+            <!-- -------------------------------------------------------Row 2(R2) Ended Here------------------------------------------- -->
+
+
+
+             <!-- ------------------------------------------bannerscroll1------------------------------------------------------------- -->
+           
+            <ul class="list-group list-group-horizontal scrollcard my-3" style="height: 330px;margin-left: 10px; width: 98.7%;" >
+                <li class="list-group-item" style="border: none; padding-top: 10px;"><p style="margin-left: 20px; margin-bottom: 35px;" class="h5">Today's Deal</p><img src="./bannerscroll/1st.jpg" alt="img" ></li>
+                <li class="list-group-item"  style="border: none;padding-top: 60px;"><img src="./bannerscroll/2nd.jpg" alt="img"></li>
+                <li class="list-group-item"  style="border: none;padding-top: 60px;"><img src="./bannerscroll/3rd.jpg" alt="img"></li>
+                <li class="list-group-item"  style="border: none;padding-top: 60px;"><img src="./bannerscroll/4th.jpg" alt="img"></li>
+                
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/5th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/6th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/7th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/8th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/9th.jpg" alt="img"></li>
+                
+                
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/10th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/11th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/12th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/13th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/14th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/15th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/16th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll/17th.jpg" alt="img"></li>
+                   
+            </ul>
+
+             <!-- ---------------------------------------------Banner Scroll 1 End----------------------------------------------------- -->
+             <!-- ---------------------------------------------Banner Scroll 2 Start-------------------------------------------------- -->
+            <ul class="list-group list-group-horizontal scrollcard my-4" style="height: 330px;margin-left: 10px; width: 98.7%;" >
+                <li class="list-group-item" style="border: none; padding-top: 10px;"><p style="margin-left: 20px; margin-bottom: 60px;" class="h5">More everyday essentials to explore</p><img src="./bannerscroll2/2nd.jpg" alt="img" ></li>
+                <li class="list-group-item"  style="border: none;padding-top: 60px;"><img src="./bannerscroll2/1st.jpg" alt="img"></li>
+                <li class="list-group-item"  style="border: none;padding-top: 60px;"><img src="./bannerscroll2/3rd.jpg" alt="img"></li>
+                <li class="list-group-item"  style="border: none;padding-top: 60px;"><img src="./bannerscroll2/4th.jpg" alt="img"></li>
+                
+                <li class="list-group-item" style="border: none;padding-top: 100px;"><img src="./bannerscroll2/5th.jpg" alt="img" style="width: 350px;"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll2/6th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll2/7th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll2/8th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll2/9th.jpg" alt="img"></li>
+        
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll2/10tth.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll2/11th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll2/12th.jpg" alt="img"></li> 
+            </ul>
+            <!-- ---------------------------------------------Banner Scroll 2 End --------------------------------------------------- -->
+
+
+            <!-- --------------------------------------Row3 Cards------------------------------------------------------------------- -->
+            <ul class="list-group list-group-horizontal my-3" style="margin-left: -8px;padding-top: 10px;" id="row2">
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;">
+                    <!-- -----------------------------------R3--card1--------------------------------------------------------------------- -->
+                    <div class="card" style="margin-top: -15px; width: 21.6rem; height: 410px;">
+                        <div class="card-body">
+                            <table>
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Everything for the newborn & expecting mothers</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow3/1card1.jpg" alt="img" width="140px"
+                                                height="100px">
+                                            must have baby product
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow3/1card2.jpg" alt="img" width="140px"
+                                                height="90px" class="mx-4" style="margin-top: 15px;">
+                                            <p style="margin-left: 25px;">Baby wishlist</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow3/1card3.jpg" alt="img" width="140px"
+                                                height="100px" class="" style="margin-top:10px;">
+                                            <p>Shoping</p>
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow3/1card4.jpg" alt="img" width="140px"
+                                                height="100px" class=" mx-4" style="margin-top: 10px;">
+                                            <p style="margin-left: 25px;">Explore More</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 45px;font-size:14px ;">
+                            see more</a>
+                    </div>
+                </li>
+                <!-- ------------------------------------------------------R3 Card1 End--------------------------------------------------- -->
+                <!-- -------------------------------------------------------R3---card2----------------------------------------------------- -->
+
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;"id="row1_card2">
+
+                    <div class="card" style="margin-top: -15px; width: 21.6rem; height: 410px;" >
+                        <div class="card-body">
+                            <table>
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Keep shopping for</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow3/2card1.jpg" alt="img" width="110px"
+                                                height="100px">
+                                            DIALDACRE
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow3/2card2.jpg" alt="img" width="110px"
+                                                height="100px" class="mx-4 ">
+                                            <p style="margin-left: 25px;">CosmoCARE</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow3/2card3.jpg" alt="img" width="110px"
+                                                height="100px" class="" style="margin-top:10px;">
+                                            <p>NRX HealthCAre</p>
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow3/2card4.jpg" alt="img" width="110px"
+                                                height="100px" class=" mx-4" style="margin-top: 10px;">
+                                            <p style="margin-left: 25px;">Dr Trust (USA)</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 35rem;font-size:14px ;">
+                            See More</a>
+                    </div>
+                </li>
+
+                <!-- ----------------------------------------------------R3 Card2 End------------------------------------------------------ -->
+                <!-- ----------------------------------------------------R3 Card3 Start---------------------------------------------------- -->
+
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;">
+
+                    <div class="card" style="margin-top: -15px; width: 21.6rem; height: 410px;">
+                        <div class="card-body">
+                            <table>
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Pantry offers now on Amazon Fresh | Up to 40% off</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow3/3card1.jpg" alt="img" width="140px"
+                                                height="100px">
+                                            Buiscuit & Snacks
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow3/3card2.jpg" alt="img" width="140px"
+                                                height="95px" class="mx-4 ">
+                                            <p style="margin-left: 25px;">Beverages</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow3/3card3.jpg" alt="img" width="140px"
+                                                height="100px" class="" style="margin-top:10px;">
+                                            <p>Dry Fruit</p>
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow3/3card4.jpg" alt="img" width="140px"
+                                                height="100px" class=" mx-4" style="margin-top: 10px;">
+                                            <p style="margin-left: 25px;">see all offer</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 15rem;font-size:13px ;">
+                            Visit Store</a>
+                    </div>
+
+                </li>
+
+                    <!--  ----------------------------------------------------R3 CArd4----------------------------------------------------- -->
+                <li class="list-group-item rowall"style="border: none;background-color:whitesmoke;">
+
+                    <div class="card" style="margin-top: -15px; width: 21.6rem; height: 410px;">
+                        <div class="card-body">
+                            <table>
+                                <tbody style="font-size: 13px; font-family: inherit;">
+                                    <h5 class="card-title mx-1">Electronics devices for home office</h5>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow3/4card1.jpg" alt="img" width="140px"
+                                                height="98px">
+                                            Smart Wathches
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow3/4card2.jpg" alt="img" width="140px"
+                                                height="94px" class="mx-4 ">
+                                            <p style="margin-left: 25px;">Tablet</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./cardsrow3/4card3.jpg" alt="img" width="140px"
+                                                height="98px" class="" style="margin-top:10px;">
+                                            <p>Laptop</p>
+                                        </td>
+                                        <td>
+                                            <img src="./cardsrow3/4card4.jpg" alt="img" width="140px"
+                                                height="98px" class=" mx-4" style="margin-top: 10px;">
+                                            <p style="margin-left: 25px;">Monitors</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <a href="#"
+                            style="text-decoration: none;; margin-left: 22px; margin-bottom: 35rem;font-size:14px ;">
+                            Explore all</a>
+                    </div>
+
+                </li>
+                <!-- ------------------------------------R3 card4 end--------------------------------------------------------------- -->
+
+            </ul>
+            <!-- --------------------------------------------Roe3 cards End--------------------------------------------------------- -->
+
+
+             <!-- ------------------------------------------bannerscroll1------------------------------------------------------------- -->
+           
+            <ul class="list-group list-group-horizontal scrollcard my-3" style="height: 330px;margin-left: 10px; width: 98.7%;" >
+                <li class="list-group-item" style="border: none; padding-top: 10px;"><p style="margin-left: 20px; margin-bottom: 35px;" class="h5">Up to 40% off  |</p><img src="./bannerscroll3/1st.jpg" alt="img" ></li>
+                <li class="list-group-item"  style="border: none;padding-top: 10px;"><p style="margin-left: -30px; margin-bottom: 35px;" class="h5">Refurbished</p><img src="./bannerscroll3/2nd.jpg" alt="img"></li>
+                <li class="list-group-item"  style="border: none;padding-top: 10px;"><p style="margin-left:-75px; margin-bottom: 35px;" class="h5">trackers</p><img src="./bannerscroll3/3rd.jpg" alt="img"></li>
+                <li class="list-group-item"  style="border: none;padding-top: 60px;"><img src="./bannerscroll3/4th.jpg" alt="img"></li>
+                
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/5th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/6th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/7th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/8th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/9th.jpg" alt="img"></li>
+                
+                
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/10th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/11th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/12th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/13th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/14th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll3/15th.jpg" alt="img"></li>
+                             
+            </ul>
+
+             <!-- ---------------------------------------------Banner Scroll 1 End----------------------------------------------------- -->
+             <!-- ---------------------------------------------Banner Scroll 2 Start-------------------------------------------------- -->
+             <ul class="list-group list-group-horizontal scrollcard my-3" style="height: 330px;margin-left: 10px; width: 98.7%;" >
+                <li class="list-group-item" style="border: none; padding-top: 10px;"><p style="margin-left: 20px; margin-bottom: 35px;" class="h5">Up to 65% off  |</p><img src="./bannerscroll4/1st.jpg" alt="img" ></li>
+                <li class="list-group-item"  style="border: none;padding-top: 10px;"><p style="margin-left: -130px; margin-bottom: 35px;" class="h5">Refurbished</p><img src="./bannerscroll4/2nd.jpg" alt="img"></li>
+                <li class="list-group-item"  style="border: none;padding-top: 10px;"><p style="margin-left:-250px; margin-bottom: 35px;" class="h5">Laptops</p><img src="./bannerscroll4/3rd.jpg" alt="img"></li>
+                <li class="list-group-item"  style="border: none;padding-top: 60px;"><img src="./images/bannerscroll4/4th.jpg" alt="img"></li>
+                
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/5th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/6th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/7th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/8th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/9th.jpg" alt="img"></li>
+                
+                
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/10th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/11th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/12th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/13th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/14th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/15th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/16th.jpg" alt="img"></li>
+                <li class="list-group-item" style="border: none;padding-top: 60px;"><img src="./bannerscroll4/17th.jpg" alt="img"></li>
+                             
+            </ul>
+            <!-- ---------------------------------------------Banner Scroll 2 End ------------------------------------------------- --> 
+                     <!-- --------------------------------------------footer----------------------------------------- -->
+            
+        </div>
+
+        <nav class="navbar navbar-expand-sm" style="background-color:#354b66 ; height: 50px;">
+            <ul class="navbar-nav mx-auto d-block">
+                <li class="nav-item text-white " style="font-size: 14px; font-family: inherit;">
+                    Back to top
+                </li>
+
+            </ul>
+        </nav>
+
+        <nav class="navbar navbar-expand-sm" style="background-color:#232F3E">
+
+            <ul class="list-group text-white" style="margin-left: 250px; margin-top: -50px;">
+                <li class="list-group-item" style="background-color:#232F3E ;color: white;font-weight: bold;border:none; margin-top: -20px;">
+                    Get to Know Us
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white; font-size: 13.5px;border:none; margin-top: 2px;">
+                    About Us
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Careers
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Press Releases
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Amazon Cares
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Gift a Smile
+                </li>
+
+            </ul>
+
+
+
+
+            <ul class="list-group text-white" style="margin-left: 100px; margin-top: -50px;">
+                <li class="list-group-item" style="background-color:#232F3E ;color: white;font-weight: bold;border:none; margin-top: -85px;">
+                    Connect with Us
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white; font-size: 13.5px;border:none; margin-top: -8px;">
+                    Facebook
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Twitter
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Instagram
+                </li>
+            </ul>
+
+
+
+
+            <ul class="list-group text-white" style="margin-left: 100px;margin-top: -50px;">
+                <li class="list-group-item" style="background-color:#232F3E ;color: white;font-weight: bold;border:none; margin-top: 27px;">
+                    Make Money with Us
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white; font-size: 13.5px;border:none; margin-top: -8px;">
+                    Sell on Amazon
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Sell under Amazon Accelerator
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Amazon Global Selling
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Become an Affiliate
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Fulfilment by Amazon
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Advertise Your Products
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Amazon Pay on Merchants
+                </li>
+
+
+            </ul>
+
+
+
+            <ul class="list-group text-white" style="margin-left: 100px;">
+                <li class="list-group-item" style="background-color:#232F3E ;color: white;font-weight: bold;border:none; margin-top: 25px;">
+                    Let Us Help You
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white; font-size: 13.5px;border:none; margin-top: -8px;">
+                    COVID-19 and Amazon
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Your Account
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Returns Centre
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    100% Purchase Protection
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Amazon App Download
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Amazon Assistant Download
+                </li>
+                <li class="list-group-item" style="background-color:#232F3E; color:white;font-size: 13.5px; border:none ; margin-top: -8px;">
+                    Help
+                </li>
+                <br><br>
+            </ul>
+        </nav>
+
+        <hr style="height: 1px; margin-top: -2px;color: rgb(222, 223, 219);">
+        <!-- -----------------------------------------------footer2-------------------------------------------------------------------- -->
+
+        <nav class="navbar navbar-expand-sm" style="background-color:#232F3E;  margin-top: -15px;">
+            
+
+            <ul class="navbar-nav " style="margin-left: 600px; margin-top: 25px;margin-bottom: 15px;">
+                
+                <li class="nav-item">
+                    <img src="./images/amazonlogo.png" alt="img" style="width: 85px; height: 35px;">
+
+                </li>
+                <li class="nav-item dropdown" style="margin-left: 130px;">
+
+                    <button type="button" class="btn dropdown-toggle text-light"
+                        data-bs-toggle="dropdown" style="border: solid 0.2px; height: 35px; margin-top: -1px; width: 140px;">English</button>
+
+                        <ul class="dropdown-menu" style="width: 250px;">
+                            <li><a href="#" class="dropdown-item text-dark"> English</a> </li>
+                            <hr>
+                            <li><a href="#" class="dropdown-item text-dark" style="margin-top: -18px;"> हिंदी - HI</a> </li>
+                            <li><a href="#" class="dropdown-item text-dark"> தமிழ் - TA</a> </li>
+                            <li><a href="#" class="dropdown-item text-dark"> తెలుగు - TE</a> </li>
+                            <li><a href="#" class="dropdown-item text-dark"> ಕನ್ನಡ - KN</a> </li>
+                            <li><a href="#" class="dropdown-item text-dark"> മലയാളം - ML</a> </li>
+                            <li><a href="#" class="dropdown-item text-dark"> मराठी - MR</a> </li>
+                            <li><a href="#" class="dropdown-item text-dark">বাংলা - BN</a> </li>
+                            <hr style="margin-top: -8px;">
+                            <li class="dropdown-item" style="margin-top: -16px;"><img src="./images/india.png" alt="img" width="18px" height="18px">
+                            <span style="font-size: 15px;"> You are shopping on
+                                <pre style="font-size: 15px;">Amazon.in.</pre>
+                            </span>
+                        </li>
+                        <li class="dropdown-item text-primary text-center" style="font-size: 14px; margin-top: -15px;">Change Country &
+                            Region
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+
+
+        <nav class="navbar navbar-expand-sm" style="background-color: #0F1111;">
+
+            <ul class="list-group" style="margin-left: 250px;">
+
+                <li class="list-group-item lfooter" style="font-weight: bolder;">AbeBooks</li>
+                <li class="list-group-item lfooter">Books, art</li>
+                <li class="list-group-item lfooter"> & collectibles</li>
+
+                <li class="list-group-item lfooter" style="font-weight: bolder; margin-top: 15px;">Shopbop</li>
+                <li class="list-group-item lfooter">Designer</li>
+                <li class="list-group-item lfooter">Fashion Brands</li>
+
+            </ul>
+
+            <ul class="list-group" style="margin-left: 100px;">
+
+                <li class="list-group-item lfooter" style="font-weight: bolder;">Amazon Web Services</li>
+                <li class="list-group-item lfooter">Scalable Cloud</li>
+                <li class="list-group-item lfooter">Computing Services</li>
+
+                <li class="list-group-item lfooter" style="font-weight: bolder; margin-top: 15px;">	Amazon Business </li>
+                <li class="list-group-item lfooter">Everything For</li>
+                <li class="list-group-item lfooter">Your Business</li>
+
+            </ul>
+
+            <ul class="list-group" style="margin-left: 130px;">
+
+                <li class="list-group-item lfooter" style="font-weight: bolder;">Audible</li>
+                <li class="list-group-item lfooter">Download</li>
+                <li class="list-group-item lfooter">Audio Books</li>
+
+                <li class="list-group-item lfooter" style="font-weight: bolder; margin-top: 15px;">Prime Now</li>
+                <li class="list-group-item lfooter"> 2-Hour Delivery</li>
+                <li class="list-group-item lfooter">on Everyday Items</li>
+
+            </ul>
+
+            <ul class="list-group" style="margin-left: 120px;">
+
+                <li class="list-group-item lfooter" style="font-weight: bolder;">DPReview</li>
+                <li class="list-group-item lfooter"> Digital</li>
+                <li class="list-group-item lfooter"> Photography</li>
+
+                <li class="list-group-item lfooter" style="font-weight: bolder; margin-top: 15px;">Amazon Prime Music</li>
+                <li class="list-group-item lfooter"> 75 million songs, ad-free</li>
+                <li class="list-group-item lfooter">Over 10 million podcast episodess</li>
+
+            </ul>
+
+            <ul class="list-group" style="margin-left: 120px;">
+
+                <li class="list-group-item lfooter" style="font-weight: bolder;">IMDb</li>
+                <li class="list-group-item lfooter"> Movies, TV</li>
+                <li class="list-group-item lfooter">& Celebrities</li>
+            </ul>
+        </nav>
+
+        <nav class="navbar navbar-expand-sm"  style="background-color: #161a1a;">
+
+            <ul class="navbar-nav" style="margin-left: 450px; margin-top: 20px; margin-bottom: 20px;">
+                <li class="nav-item" style="margin-top: 5px; font: bold; font-size: 12px; color: aliceblue; font-weight: 400;">Condition of use & sell <span style="margin-left: 10px;  font-weight: 400;">Privacy Notice</span></li><span  style="font-size: 12px; color: aliceblue; margin-left: 10px; margin-top: 6px;  font-weight: 400;">Interest-Based Ads
+                <li class="nav-item" style="font-size: 12px; color: aliceblue; margin-left: 120px; margin-top: -16px;  font-weight: 400;">&copy; 2000-2021,Amozan.com,inc. or its affilates</li></span>
+            </ul>
+
+        </nav>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
