@@ -1,0 +1,375 @@
+/* Mobile View */
+
+@media only screen and (max-width:600px)
+{
+   body{
+      flex-wrap: nowrap;
+      display: 33%;
+   }
+   .media1{
+        display: block;
+       flex-basis: 33%;
+   }
+   #navbar1{
+       display: block;
+       height: 40px;
+   }
+   .nav-item ,btn,p{
+       font-size: 6px;   
+       
+   }
+   #loc{
+       
+       margin-left: 70px;
+       padding-top: 40px;
+   }
+   #bannerimg{
+       display: flex;
+       margin-top:1px;
+       width: 400px;
+       height: 200px;
+   }
+
+   #mobimg{
+       margin-left: -10px;
+       width: 45px;
+       height: 30px;
+   }
+   #helloselectadd{
+       margin-left: -325px;
+       margin-top: -40px;
+   }
+   
+   .hell{
+        margin-right: -65px;
+        font-size: 3px;
+    }
+
+    #addres{
+        margin-right: 20px;
+    }
+    #searchbar{
+        width: 200px;
+        margin-top: -70px;
+        margin-left: 62px;
+    }
+    #all{
+        margin-top: 23px;
+        margin-left: -240px;
+        width: 30px;
+        height: 21px;
+        font-size: 10px;
+        padding-right: 12px;
+        padding-bottom: 2px;
+        text-align: left;
+    }
+    #searchm{
+        margin-top: -21px;
+        height: 21px;
+        margin-left: 28px;
+    }
+    #searchicon{
+        margin-left: 176px;
+        margin-top: -21px;
+        width: 25px;
+        height: 21px;
+    }
+    .bi ,bi-search{
+        margin-top: -19px;
+        margin-left: -4px;
+        width: 15px;
+        height: 15px;
+    }
+
+    #flag1{
+        margin-left: 244px;
+    }
+    #flag{
+        margin-top: -100px;
+    }
+    #flag img{
+        width: 20px;
+        height: 20px;
+    }
+    .helloin{
+        margin-top: -80px;
+    }
+    #hellosignin{
+        margin-top: -5px;
+        margin-left: 290px;
+    }
+    #hellosignin1{
+        font-size: 5px;
+    }
+    #signin{
+        margin-left: 300px;
+        font-size: 5px;
+    }
+    #hellosign{
+        margin-top: -80px;
+    }
+    #accountlist{
+        font-size: 10px;
+    }
+
+    .return_order{
+        margin-top: -35px;
+    }
+    .r_and_o{
+        margin-left: 340px;
+        font-size: 8px;
+    }
+    .r_and{
+        margin-left: 335px;
+        margin-top: -10px;
+    }
+    .ordersize{
+        font-size: 8px;
+    }
+    .carticon{
+        margin-left: 399px;
+        margin-top: -30px;
+    }
+
+    /* #navbar2{
+        font-size: 10px;
+    } */
+
+    .div2{
+        margin-top: -45px;
+        
+        
+    }
+
+    .bi ,bi-list{
+        padding-top: 5px;
+    }
+    #allsize{
+        font-size: 5px;
+        margin-top: 8px;
+        margin-left: -8px;
+    }
+
+    .mobiles{
+        margin-top:-50px;
+        margin-left: -387px;  
+    }
+    .mobilesize{
+        margin-top: 9px;
+    }
+
+    .msize{
+        font-size: 6px;
+    }
+
+
+    .bestseller{
+        margin-top: -40px;
+        margin-left: -332px;
+    }
+    
+    .bests{
+        font-size: 5.8px;
+    }
+
+
+    .electronics{
+        margin-top: -40px;
+        margin-left: -272px;
+    }
+    .electron{
+        font-size: 5.8px;
+    }
+
+    .customer_service{
+        margin-top: -40px;
+        margin-left: -196px;
+    }
+    .customers{
+        font-size: 5.8px;
+    }
+
+
+    .fashion{
+        margin-top: -40px;
+        margin-left: -128px;
+    }
+    .fashions{
+        font-size: 5.8px;
+    }
+
+    .prime{
+        margin-top: -40px;
+        margin-left: -90px;
+    }
+    .primes{
+        font-size: 5.8px;
+    }
+
+    .home_kitchen{
+        margin-top: -40px;
+        margin-left: -30px;
+    }
+    .home_kitchens{
+        font-size: 5.7px;
+    }
+
+    .amazonpay{
+        margin-top: -40px;
+        margin-left: 48px;
+    }
+    .amazonpays{
+        font-size: 5.7px;
+    }
+
+    .computer{
+        margin-top: -40px;
+        margin-left: 109px;
+    }
+    .computers{
+        font-size: 5.5px;
+    }
+
+    .todaysdeal{
+        margin-top: -40px;
+        margin-left: 172px;
+    }
+    .todaysdeals{
+        font-size:5.4px;
+    }
+
+    .book{
+        margin-top: -40px;
+        margin-left: 223px;
+    }
+    .books{
+        font-size: 5.3px;
+    }
+
+    .downloadapp{
+        margin-top: -40px;
+        margin-left: 120px;
+    }
+    .downloadimg{
+        margin-left: 280px;
+        width: 10px;
+        height: 20px;
+    }
+    .downloada{
+        font-size: 5px;
+    }
+
+    #mobcard{
+        margin-top: -200px;
+    }
+    #previcon{
+        margin-top: 220px;
+    }
+
+    #starticon{
+        margin-top: 220px;
+    }
+
+    #bannerimg{
+        width:420px;
+        height: 150px;
+    }
+
+    /* #cardrow1{
+        margin-right: -900px;
+    } */
+
+    .rowall{
+        margin-left: 20px;
+    }
+
+    #row1_card2{
+        margin-top: 290px;
+    }
+    #row1_card3{
+        margin-top: 290px;
+    }
+    #row1_card4{
+        margin-top: 290px;
+    }
+
+    #row2{
+        margin-top: 40px;
+    }
+
+   .list-group ,list-group-horizontal{
+       display: block;
+       margin-top: 300px;
+
+   }
+
+
+
+
+} 
+
+#navbar1{
+
+    background-color: #0F1111;
+    
+}
+#navbar1 ul li a{
+    color: white;
+}
+
+#hoverbox img:hover{
+    border: 1px solid white;
+    
+    padding: -9px;
+}
+
+#location_icon_hover:hover{
+    border: 1px solid white;
+    
+    padding: -9px;
+}
+.myDropDown
+{
+   height: 500px;
+   overflow: auto;
+}
+.scrollcard{
+    overflow:hidden;
+}
+.scrollcard:hover{
+    overflow:scroll;
+}
+#flag1 :hover{
+    border: 1px solid white;
+       
+}
+#accountlist :hover{
+    border: 1px solid white;
+}
+
+#nav2 :hover{
+    border: 1px solid white;
+}
+.carousel-control-prev{
+    filter: invert(100%);
+}
+.carousel-control-next{
+    filter: invert(100%);
+}
+
+#helloselectadd:hover{
+    border: 1px solid white;
+}
+
+.lfooter{
+    border: none;
+    background-color: #0F1111;
+    color: white;
+    font-size: 10px;
+    margin: -5px;
+    font-family: inherit;
+    font-weight: 100;
+}
+
+
+
